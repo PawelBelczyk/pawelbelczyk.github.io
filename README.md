@@ -1,24 +1,42 @@
-# Nowoczesne portfolio — Paweł Belczyk
+# Paweł Belczyk — Portfolio
 
-Rozbudowana, responsywna strona osobista łącząca profil farmaceutyczny z rozwojem programistycznym.
+Personalna strona internetowa prezentująca moje doświadczenie zawodowe w farmacji, rozwój w kierunku programowania oraz wybrane projekty.
 
-## Zawartość
-- `index.html` — strona i treści
-- `styles.css` — layout, grafiki CSS, responsywność i animacje hover
-- `script.js` — mobilne menu, aktywna nawigacja i rok w stopce
-- `CV_Pawel_Belczyk_PL_EN.pdf` — CV, do którego prowadzą przyciski pobierania
+**Strona:** [pawelbelczyk.github.io](https://pawelbelczyk.github.io/)
 
-## Przed publikacją
-1. Zamień `WPISZ_TUTAJ_EMAIL` w `index.html` na właściwy adres e-mail.
-2. Podmień ogólny link LinkedIn na swój profil lub usuń wiersz kontaktowy.
-3. Sprawdź linki do projektów i opisy ich aktualnego statusu.
-4. Zweryfikuj, czy CV PDF jest ostateczną wersją i nie zawiera pól do uzupełnienia.
-5. Jeśli chcesz, dodaj linki do działających wersji demo projektów — nie wpisuj adresów, które nie działają.
+## Technologie
 
-## Uruchomienie
-Otwórz `index.html` w przeglądarce albo użyj rozszerzenia Live Server w VS Code.
+- HTML5
+- CSS3 — responsywny układ, animacje i style
+- JavaScript — interakcje i nawigacja
 
-## Publikacja za darmo
-Możesz umieścić zawartość folderu w publicznym repozytorium GitHub i włączyć GitHub Pages w Settings → Pages. PDF musi zostać opublikowany razem z `index.html`, wtedy przyciski „Pobierz CV” będą działać.
+## Struktura projektu
 
-Strona jest statyczna i nie wymaga npm, frameworka ani backendu.
+```text
+.
+├── index.html
+├── styles.css
+├── script.js
+├── CV_Pawel_Belczyk_Pharmacy_Tech_Professional.pdf
+└── README.md
+```
+
+## Uruchomienie lokalne
+
+1. Sklonuj repozytorium:
+
+   ```bash
+   git clone https://github.com/PawelBelczyk/pawelbelczyk.github.io.git
+   ```
+
+2. Otwórz plik `index.html` w przeglądarce albo uruchom projekt za pomocą rozszerzenia Live Server w VS Code.
+
+Projekt nie wymaga instalowania zależności, kompilacji ani uruchamiania backendu.
+
+## Publikacja
+
+Strona jest hostowana bezpłatnie za pomocą GitHub Pages. Zmiany wysłane do głównej gałęzi repozytorium są publikowane zgodnie z konfiguracją wdrożenia.
+
+## Cel
+
+Strona stanowi moją wizytówkę internetową i miejsce prezentacji doświadczenia, kompetencji oraz kolejnych projektów.
