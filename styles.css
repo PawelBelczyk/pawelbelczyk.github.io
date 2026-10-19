@@ -57,3 +57,63 @@
  .cv-text-link{margin-left:0}
  .project-art{height:170px}
 }
+
+
+/* Project links and Battleship preview */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.art-battleship {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: #e9edf4;
+}
+
+.battleship-app {
+  padding: 20px;
+  border-radius: 14px;
+  background: #f7f8fc;
+  color: #243b63;
+}
+
+.battleship-heading {
+  margin-bottom: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.battleship-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 28px);
+  gap: 3px;
+}
+
+.battleship-grid span {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 3px;
+  background: #e8f0fa;
+}
+
+.battleship-grid .ship-cell {
+  background: #a8c5e8;
+}
+
+.battleship-grid .hit-cell {
+  color: #c2414b;
+  font-weight: 800;
+}
+
+.battleship-grid .miss-cell {
+  color: #64748b;
+}
